@@ -1,10 +1,10 @@
 # Hero Save Princess
 
-![Hero Save Princess Logo](https://github.com/thang1204/Hero-save-princess/assets/99167265/a905fe16-1849-4de8-b384-01ce69903949)
+![Hero Save Princess Logo](https://github.com/thang1204/Hero-save-princess/assets/99167265/2ccbf046-2496-45db-9e99-1b52ec5641b6)
 
 ## Giới Thiệu
 
-Chào mừng bạn đến với "Hero Save Princess" - một trò chơi phiêu lưu thú vị, nơi bạn sẽ đóng vai một anh hùng dũng cảm với sứ mệnh là cứu công chúa khỏi tay kẻ xấu.
+Hero save princess là một tựa game phiêu lưu hành động 2D dựa trên nền tảng unity và lập trình bằng ngôn ngữ C#. Trong game, bạn sẽ vào vai một anh hùng dũng cảm phải chiến đấu với những kẻ thù nguy hiểm và giải đố những câu đố hóc búa để cứu công chúa xinh đẹp khỏi tên rồng hung ác.
 
 ## Cách Chơi
 
@@ -19,4 +19,3 @@ Chào mừng bạn đến với "Hero Save Princess" - một trò chơi phiêu l
 
 4. **Cuộc Phiêu Lưu:**
    - Khám phá thế giới rộng lớn, thu thập vật phẩm và nâng cấp kỹ năng của bạn.
-
