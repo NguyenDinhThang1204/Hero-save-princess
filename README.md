@@ -1,6 +1,6 @@
 # Hero Save Princess
 
-![Hero Save Princess Logo](https://github.com/thang1204/Hero-save-princess/assets/99167265/d95834ee-29eb-429f-94ac-711119cba938)
+![Hero Save Princess Logo](https://github.com/thang1204/Hero-save-princess/assets/99167265/a905fe16-1849-4de8-b384-01ce69903949)
 
 ## Giới Thiệu
 
@@ -19,6 +19,4 @@ Chào mừng bạn đến với "Hero Save Princess" - một trò chơi phiêu l
 
 4. **Cuộc Phiêu Lưu:**
    - Khám phá thế giới rộng lớn, thu thập vật phẩm và nâng cấp kỹ năng của bạn.
-
-## Yêu Cầu Hệ Thống
 
