@@ -67,7 +67,17 @@ public class DamageAble : MonoBehaviour
             Debug.Log("IsAlive set " + value);
         }
     }
-
+    public bool LockVelocity
+    {
+        get
+        {
+            return animator.GetBool(AnimationStrings.lockVelocity);
+        }
+        set
+        {
+            animator.SetBool(AnimationStrings.lockVelocity, value);
+        }
+    }
     private void Awake()
     {
         animator = GetComponent<Animator>();
@@ -95,6 +105,7 @@ public class DamageAble : MonoBehaviour
             isInvincible = true;
 
             animator.SetTrigger(AnimationStrings.hitTrigger);
+            LockVelocity = true;
             damageAbleHit?.Invoke(damage, knockback);
 
             return true;
