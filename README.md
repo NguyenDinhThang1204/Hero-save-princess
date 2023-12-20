@@ -1,6 +1,6 @@
 # Hero Save Princess
 
-![Hero Save Princess Logo](https://github.com/thang1204/Hero-save-princess/assets/99167265/2ccbf046-2496-45db-9e99-1b52ec5641b6)
+![Hero Save Princess Logo](https://github.com/thang1204/Hero-save-princess/assets/99167265/23be1d39-4ec9-4038-9788-bf708bc34835)
 
 ## Giới Thiệu
 
