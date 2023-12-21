@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 158281390445132681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.3167434, y: 0.5944981, z: 0.052131016}
+  m_LocalPosition: {x: 2.9, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -77,14 +77,16 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 0.6023965, y: -0.05419278}
-      - {x: 0.79158825, y: -0.5730623}
-      - {x: 0.5524643, y: -1.1317291}
-      - {x: 2.029232, y: -1.6910968}
-      - {x: 2.3461547, y: -1.2481866}
-      - {x: 2.468555, y: -0.80732983}
-      - {x: 2.2304997, y: -0.10249868}
-      - {x: 1.9407061, y: 0.39507335}
+    - - {x: -1.3002286, y: 0.7068568}
+      - {x: -0.9171246, y: 0.41681123}
+      - {x: -0.78014547, y: 0.105264485}
+      - {x: -0.82101285, y: -0.27041268}
+      - {x: -1.035814, y: -0.56921434}
+      - {x: 0.55676615, y: -1.0458593}
+      - {x: 0.8240541, y: -0.53676987}
+      - {x: 0.86373174, y: 0.069532275}
+      - {x: 0.7083993, y: 0.42692742}
+      - {x: 0.08771491, y: 1.2388467}
   m_UseDelaunayMesh: 0
 --- !u!114 &1483003373204072526
 MonoBehaviour:
@@ -99,6 +101,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 10
+  knockback: {x: 2, y: 1}
 --- !u!1 &2379496035639721029
 GameObject:
   m_ObjectHideFlags: 0
@@ -334,6 +337,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8ba15f0cc5b7d9439744cadf3b7d00c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageAbleHit:
+    m_PersistentCalls:
+      m_Calls: []
   _maxHealth: 100
   _health: 100
   _isAlive: 1

@@ -1,9 +1,9 @@
-using System;
+    using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections))]
+[RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(DamageAble))]
 public class Knight : MonoBehaviour
 {
     public float walkSpeed = 3f;
@@ -13,6 +13,7 @@ public class Knight : MonoBehaviour
     Rigidbody2D rb;
     TouchingDirections TouchingDirections;
     Animator animator;
+    DamageAble damageAble;
     public enum WalkableDirection { Right, Left}
 
     private WalkableDirection _walkDirection;
@@ -63,6 +64,7 @@ public class Knight : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         TouchingDirections = GetComponent<TouchingDirections>();
         animator = GetComponent<Animator>();
+        damageAble = GetComponent<DamageAble>();
     }
 
     // Update is called once per frame
@@ -78,10 +80,13 @@ public class Knight : MonoBehaviour
             FlipDirection();
         }
 
-        if(CanMove)
-            rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x , rb.velocity.y);
-        else
-            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+        if(!damageAble.LockVelocity)
+        {
+            if (CanMove)
+                rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
+            else
+                rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
+        }
     }
 
     private void FlipDirection()
@@ -98,10 +103,9 @@ public class Knight : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
-    void Start()
+    public void OnHit(int damage, Vector2 knockback)
     {
-        
+        rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
 
 
