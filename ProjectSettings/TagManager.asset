@@ -16,7 +16,7 @@ TagManager:
   - PlayerHitbox
   - EnemyHitbox
   - Enemy
-  - 
+  - GroundDetection
   - 
   - 
   - 
