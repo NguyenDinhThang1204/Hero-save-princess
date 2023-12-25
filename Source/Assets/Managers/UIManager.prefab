@@ -44,3 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fea6a797cda35604895def4a9916f08d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageTextPrefab: {fileID: 4648409907513948820, guid: f66171a7214a5c24bb0152d64594e225, type: 3}
+  healthTextPrefab: {fileID: 4648409907513948820, guid: c059926be8e80974cb0e563252188c1e, type: 3}
+  gameCanvas: {fileID: 0}
