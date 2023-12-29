@@ -83,7 +83,7 @@ public class Knight : MonoBehaviour
 
         if(!damageAble.LockVelocity)
         {
-            if (CanMove)
+            if (CanMove && TouchingDirections.IsGrounded)
                 rb.velocity = new Vector2(walkSpeed * walkDirectionVector.x, rb.velocity.y);
             else
                 rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, walkStopRate), rb.velocity.y);
