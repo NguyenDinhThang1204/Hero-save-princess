@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Level-2/Game-2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/GamePlayScene.unity
+    guid: 8bbdf83b26202a248ade9ccac3f36995
+  - enabled: 1
+    path: Assets/Scenes/QuitScene.unity
+    guid: 4f2b29dd2652c934eb7f10b53f3797c8
   m_configObjects: {}
