@@ -1352,7 +1352,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.82, y: -0.98, z: -10}
+  m_LocalPosition: {x: 1.82, y: -0.88, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1630,7 +1630,7 @@ Transform:
   m_GameObject: {fileID: 974587901}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.82, y: -0.98, z: -10}
+  m_LocalPosition: {x: 1.82, y: -0.88, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2192,13 +2192,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: KnightEnemy
       objectReference: {fileID: 0}
+    - target: {fileID: 4599877515142908543, guid: 5c9bd03e1ff94e6478d63c759a80bc48, type: 3}
+      propertyPath: m_Size.y
+      value: 2.3868785
+      objectReference: {fileID: 0}
+    - target: {fileID: 4599877515142908543, guid: 5c9bd03e1ff94e6478d63c759a80bc48, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.034448385
+      objectReference: {fileID: 0}
     - target: {fileID: 6682096410406115396, guid: 5c9bd03e1ff94e6478d63c759a80bc48, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.73
       objectReference: {fileID: 0}
     - target: {fileID: 6682096410406115396, guid: 5c9bd03e1ff94e6478d63c759a80bc48, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.9
+      value: -0.82
       objectReference: {fileID: 0}
     - target: {fileID: 6682096410406115396, guid: 5c9bd03e1ff94e6478d63c759a80bc48, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2285,13 +2293,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7940302817349399931, guid: bc3b6cf9521f40241997712911f01541, type: 3}
+      propertyPath: m_Size.y
+      value: 1.7010504
+      objectReference: {fileID: 0}
+    - target: {fileID: 7940302817349399931, guid: bc3b6cf9521f40241997712911f01541, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.18468124
+      objectReference: {fileID: 0}
     - target: {fileID: 8169105700245340581, guid: bc3b6cf9521f40241997712911f01541, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.82
       objectReference: {fileID: 0}
     - target: {fileID: 8169105700245340581, guid: bc3b6cf9521f40241997712911f01541, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.98
+      value: -0.88
       objectReference: {fileID: 0}
     - target: {fileID: 8169105700245340581, guid: bc3b6cf9521f40241997712911f01541, type: 3}
       propertyPath: m_LocalPosition.z
