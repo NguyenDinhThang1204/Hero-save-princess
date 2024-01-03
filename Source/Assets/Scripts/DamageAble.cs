@@ -6,6 +6,7 @@ using UnityEngine.Events;
 public class DamageAble : MonoBehaviour
 {
     public UnityEvent<int, Vector2> damageAbleHit;
+    public UnityEvent<int, int> healthChanged;
 
     Animator animator;
 
@@ -37,6 +38,7 @@ public class DamageAble : MonoBehaviour
         set
         {
             _health = value;
+            healthChanged?.Invoke(Health, MaxHealth);
 
             if(_health <= 0)
             {
