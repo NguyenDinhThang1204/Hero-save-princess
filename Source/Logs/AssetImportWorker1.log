@@ -15,7 +15,7 @@ E:/Lập trình game/Hero-save-princess/Source
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-50250
+59304
 Successfully changed project path to: E:/Lập trình game/Hero-save-princess/Source
 E:/Lập trình game/Hero-save-princess/Source
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ E:/Lập trình game/Hero-save-princess/Source
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [21280] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3970629655 [EditorId] 3970629655 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KV0RVLO1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15604] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3916757652 [EditorId] 3916757652 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KV0RVLO1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [21280] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3970629655 [EditorId] 3970629655 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KV0RVLO1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15604] Host "[IP] 192.168.1.6 [Port] 0 [Flags] 2 [Guid] 3916757652 [EditorId] 3916757652 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-KV0RVLO1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
-Refreshing native plugins compatible for Editor in 234.14 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 62.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -70,46 +70,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015928 seconds.
-- Loaded All Assemblies, in  1.570 seconds
+Registered in 0.010341 seconds.
+- Loaded All Assemblies, in  1.524 seconds
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.917 seconds
-Domain Reload Profiling: 2483ms
-	BeginReloadAssembly (527ms)
+- Finished resetting the current domain, in  0.859 seconds
+Domain Reload Profiling: 2374ms
+	BeginReloadAssembly (565ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
+		ReleaseScriptingObjects (1ms)
 		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (242ms)
-	RebuildNativeTypeToScriptingClass (23ms)
-	initialDomainReloadingComplete (202ms)
-	LoadAllAssembliesAndSetupDomain (572ms)
-		LoadAssemblies (514ms)
+	RebuildCommonClasses (130ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (138ms)
+	LoadAllAssembliesAndSetupDomain (646ms)
+		LoadAssemblies (568ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (565ms)
-			TypeCache.Refresh (562ms)
-				TypeCache.ScanAssembly (515ms)
+		AnalyzeDomain (633ms)
+			TypeCache.Refresh (630ms)
+				TypeCache.ScanAssembly (588ms)
 			ScanForSourceGeneratedMonoScriptInfo (1ms)
 			ResolveRequiredComponents (1ms)
-	FinalizeReload (918ms)
+	FinalizeReload (860ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (766ms)
+		SetupLoadedEditorAssemblies (741ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (22ms)
-			SetLoadedEditorAssemblies (20ms)
+			SetLoadedEditorAssemblies (9ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (576ms)
-			ProcessInitializeOnLoadMethodAttributes (140ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (600ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -117,8 +117,8 @@ Domain Reload Profiling: 2483ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.864 seconds
-Refreshing native plugins compatible for Editor in 8.20 ms, found 4 plugins.
+- Loaded All Assemblies, in  3.588 seconds
+Refreshing native plugins compatible for Editor in 7.31 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 Package Manager log level set to [2]
@@ -126,47 +126,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.776 seconds
-Domain Reload Profiling: 4642ms
-	BeginReloadAssembly (416ms)
+- Finished resetting the current domain, in  2.785 seconds
+Domain Reload Profiling: 6372ms
+	BeginReloadAssembly (360ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (10ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (89ms)
-	RebuildCommonClasses (126ms)
-	RebuildNativeTypeToScriptingClass (161ms)
-	initialDomainReloadingComplete (117ms)
-	LoadAllAssembliesAndSetupDomain (2046ms)
-		LoadAssemblies (895ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (322ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (2785ms)
+		LoadAssemblies (933ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (1360ms)
-			TypeCache.Refresh (1287ms)
-				TypeCache.ScanAssembly (906ms)
-			ScanForSourceGeneratedMonoScriptInfo (54ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (1776ms)
+		AnalyzeDomain (2081ms)
+			TypeCache.Refresh (1867ms)
+				TypeCache.ScanAssembly (1825ms)
+			ScanForSourceGeneratedMonoScriptInfo (184ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (2786ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1248ms)
+		SetupLoadedEditorAssemblies (2221ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (10ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (108ms)
-			ProcessInitializeOnLoadAttributes (940ms)
-			ProcessInitializeOnLoadMethodAttributes (131ms)
-			AfterProcessingInitializeOnLoad (49ms)
-			EditorAssembliesLoaded (3ms)
+			BeforeProcessingInitializeOnLoad (332ms)
+			ProcessInitializeOnLoadAttributes (1572ms)
+			ProcessInitializeOnLoadMethodAttributes (276ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (52ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
-Refreshing native plugins compatible for Editor in 5.19 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (15ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 12.33 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4602 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 84 unused Assets / (135.9 KB). Loaded Objects now: 5070.
 Memory consumption went from 161.1 MB to 161.0 MB.
-Total: 6.750000 ms (FindLiveObjects: 0.889400 ms CreateObjectMapping: 1.046300 ms MarkObjects: 4.400800 ms  DeleteObjects: 0.408800 ms)
+Total: 57.271600 ms (FindLiveObjects: 4.096800 ms CreateObjectMapping: 9.897700 ms MarkObjects: 40.508400 ms  DeleteObjects: 2.733100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -183,83 +183,129 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 964843.903350 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(e3a12552cbfbfaa40a5932510d22bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(e3a12552cbfbfaa40a5932510d22bc4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d48d641c28ea5a71a1681082969469') in 0.020582 seconds
+  Time since last request: 971157.536504 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/Map4.prefab
+  artifactKey: Guid(291a8284f83f71a4e849d5f9b316c5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/Map4.prefab using Guid(291a8284f83f71a4e849d5f9b316c5e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08299b1993fdb4332ad4ccf83c99e5f') in 0.876212 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 315
+========================================================================
+Received Import Request.
+  Time since last request: 119.156759 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_0.asset
+  artifactKey: Guid(bec6251357308114dab947d7a1f4dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_0.asset using Guid(bec6251357308114dab947d7a1f4dc1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fca4af9fc6388436c2f8d14570c0437') in 0.055565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_25.asset
+  artifactKey: Guid(556259b372f78e14e872c4dc57b8af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_25.asset using Guid(556259b372f78e14e872c4dc57b8af6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '095261aaacff695d427b3d57a763e3f2') in 0.035174 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_8.asset
+  artifactKey: Guid(a10b704dfb9412d4b83de04c46e9b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_8.asset using Guid(a10b704dfb9412d4b83de04c46e9b8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2f9cb835cd8b4f4b7831cf185f7d15f') in 0.033907 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_11.asset
+  artifactKey: Guid(e1fa4c4b3748e234d8d96932257907c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_11.asset using Guid(e1fa4c4b3748e234d8d96932257907c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f50dd14e4034f62b9685a1f6b0153902') in 0.029947 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_10.asset
+  artifactKey: Guid(1995a0cc03b749e4598f98d810a08164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_10.asset using Guid(1995a0cc03b749e4598f98d810a08164) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a014f5408b45ff17f4f672806e80c957') in 0.049096 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_27.asset
+  artifactKey: Guid(81f95a553b8798b4cb3073b51d4ee7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_27.asset using Guid(81f95a553b8798b4cb3073b51d4ee7b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62505e655974c296ea953199bf89ccc1') in 0.110113 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_22.asset
+  artifactKey: Guid(a0433156118749b43a384e8805195949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_22.asset using Guid(a0433156118749b43a384e8805195949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282d63400825fa109535a159f4b1ba9f') in 0.044242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
   Time since last request: 0.000040 seconds.
-  path: Assets/Scenes/MenuScene.unity
-  artifactKey: Guid(61b885fa3acf3d14e9e13a3c0862e3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MenuScene.unity using Guid(61b885fa3acf3d14e9e13a3c0862e3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801b24da79fb05b1bede11dc5f2ed98a') in 0.000636 seconds
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_5.asset
+  artifactKey: Guid(40741fa1a91c0fb45bda49f1f4bd2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_5.asset using Guid(40741fa1a91c0fb45bda49f1f4bd2872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce7664632161455419e94972dd0d797') in 0.038115 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
+Number of asset objects unloaded after import = 3
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  2.455 seconds
-Refreshing native plugins compatible for Editor in 16.33 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  6.633 seconds
-Domain Reload Profiling: 9088ms
-	BeginReloadAssembly (586ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (55ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (1ms)
-		CreateAndSetChildDomain (209ms)
-	RebuildCommonClasses (103ms)
-	RebuildNativeTypeToScriptingClass (57ms)
-	initialDomainReloadingComplete (86ms)
-	LoadAllAssembliesAndSetupDomain (1622ms)
-		LoadAssemblies (1667ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (187ms)
-			TypeCache.Refresh (71ms)
-				TypeCache.ScanAssembly (4ms)
-			ScanForSourceGeneratedMonoScriptInfo (79ms)
-			ResolveRequiredComponents (35ms)
-	FinalizeReload (6634ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1759ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (20ms)
-			SetLoadedEditorAssemblies (21ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (352ms)
-			ProcessInitializeOnLoadAttributes (1222ms)
-			ProcessInitializeOnLoadMethodAttributes (133ms)
-			AfterProcessingInitializeOnLoad (11ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (35ms)
-Refreshing native plugins compatible for Editor in 7.83 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4574 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (108.1 KB). Loaded Objects now: 5087.
-Memory consumption went from 156.2 MB to 156.1 MB.
-Total: 30.520000 ms (FindLiveObjects: 3.622300 ms CreateObjectMapping: 1.957200 ms MarkObjects: 21.708200 ms  DeleteObjects: 0.204400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_18.asset
+  artifactKey: Guid(fe38af559ea628942b8c955890e36c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_18.asset using Guid(fe38af559ea628942b8c955890e36c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '639cb2fc5811b82068ea50bfe1d273c2') in 0.036410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_16.asset
+  artifactKey: Guid(1b7863bef9d40da4fa5337bf34b35f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_16.asset using Guid(1b7863bef9d40da4fa5337bf34b35f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b5a196a4e470cc7b54aee4cf12d50b') in 0.082561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_23.asset
+  artifactKey: Guid(4dfde3b6e784fd2428a9024debc39720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_23.asset using Guid(4dfde3b6e784fd2428a9024debc39720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a62b43e277394dcafd4a1939626ad6b') in 0.065338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_15.asset
+  artifactKey: Guid(66d7b376fbbaf4749b24c193438c77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_15.asset using Guid(66d7b376fbbaf4749b24c193438c77fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efb03c26281b4708758c958134ee95e3') in 0.021337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_13.asset
+  artifactKey: Guid(3a1a32f3bb647f64cad0630fb142ad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_13.asset using Guid(3a1a32f3bb647f64cad0630fb142ad4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f3a2c3bc867f976119e19e6a17b0a0') in 0.025823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_1.asset
+  artifactKey: Guid(2e709dd21cc36ba4aa4cb0acfe92bb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_1.asset using Guid(2e709dd21cc36ba4aa4cb0acfe92bb2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97e3cfe3c02d41543ed26e8d5252520') in 0.035141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_21.asset
+  artifactKey: Guid(891cec13e7afada4e8a1d6b04bb939ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/oak_woods_v1.0/Map4/oak_woods_tileset_21.asset using Guid(891cec13e7afada4e8a1d6b04bb939ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cacf3f8475a113fe28653f001aa866a') in 0.023912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
