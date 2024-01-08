@@ -17,6 +17,7 @@ public class ProjectileLauncher : MonoBehaviour
             origScale.y,
             origScale.z
             );
-
+        float angleZ = transform.localScale.x > 0 ? 225f : 135f;
+        projectile.transform.rotation = Quaternion.Euler(0f, 0f, angleZ);
     }
 }
