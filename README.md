@@ -9,13 +9,13 @@ Hero save princess là một tựa game phiêu lưu hành động 2D dựa trên
 ## Cách Chơi
 
 1. **Bắt đầu:**
-   - Mở trò chơi và chọn "New Game" để bắt đầu cuộc phiêu lưu của bạn.
+   - Mở trò chơi và chọn "New Game" để chọn màn và bắt đầu cuộc phiêu lưu của bạn.
 
 2. **Nhiệm Vụ:**
-   - Hướng dẫn anh hùng của bạn qua các cấp độ để cứu công chúa khỏi lâu đài.
+   - Nhập vai anh hùng và bạn phải chiến đấu với kẻ địch vượt qua chướng ngại vật để cứu công chúa
 
 3. **Thách Thức:**
-   - Tránh qua những quái vật hung dữ và vượt qua các câu đố để tiến lên.
+   - Tránh qua những quái vật hung dữ và vượt qua các chướng ngại vật để tiến lên.
 
 4. **Cuộc Phiêu Lưu:**
    - Khám phá thế giới rộng lớn, thu thập vật phẩm và nâng cấp kỹ năng của bạn.
