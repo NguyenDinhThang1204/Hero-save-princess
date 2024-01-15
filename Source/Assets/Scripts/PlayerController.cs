@@ -16,6 +16,8 @@ public class PlayerController : MonoBehaviour
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     DamageAble damageAble;
+    [SerializeField]
+    GameObject LosePanel;
 
     public float CurrentMoveSpeed
     {
@@ -123,6 +125,14 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
 
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
+        if (!damageAble.LockVelocity)
+        {
+            rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+
+            CheckGroundedAndFreeze();
+        }
+
+        animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -201,4 +211,14 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 0;
         }
     }
+
+    private void CheckGroundedAndFreeze()
+    {
+        if (transform.position.y < -40f)
+        {
+            LosePanel.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
+
 }
