@@ -13,6 +13,7 @@ public class PlayerController : MonoBehaviour
     public float airWalkSpeed = 3f;
     public float jumpImpulse = 10f;
     public Text WINTEXT;
+    public Text Instruct;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     DamageAble damageAble;
@@ -210,8 +211,19 @@ public class PlayerController : MonoBehaviour
             WINTEXT.gameObject.SetActive(true);
             Time.timeScale = 0;
         }
-    }
 
+        if (collision.tag == "Instruct")
+        {
+            Instruct.gameObject.SetActive(true);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Instruct"))
+        {
+            Instruct.gameObject.SetActive(false);
+        }
+    }
     private void CheckGroundedAndFreeze()
     {
         if (transform.position.y < -40f)
