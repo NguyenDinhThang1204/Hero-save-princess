@@ -6,21 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Level-1/Game-Lv1.unity
-    guid: 37d6ea7b2b462ca4c943ff8eaf2ff0b9
-  - enabled: 1
-    path: Assets/Scenes/QuitScene.unity
-    guid: 4f2b29dd2652c934eb7f10b53f3797c8
+    path: Assets/Scenes/MenuScene.unity
+    guid: 61b885fa3acf3d14e9e13a3c0862e3d4
   - enabled: 1
     path: Assets/Scenes/Level.unity
     guid: 3cbcb9b94baa95c4ca3d522d69323cd6
   - enabled: 1
+    path: Assets/Level-1/Game-Lv1.unity
+    guid: 37d6ea7b2b462ca4c943ff8eaf2ff0b9
+  - enabled: 1
     path: Assets/Level-2/Game-2.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: c24288c2e0b07f3459d5a13f368a3852
   - enabled: 1
     path: Assets/Level-3/Game-3.unity
-    guid: dde02d0768f6ca04faec0c1eace74eb3
+    guid: a4e2eff2b7c72a44b8679c5281022b0a
   - enabled: 1
     path: Assets/Level-4/Game-4.unity
-    guid: 7a5d404c7e0b8c045b8171245e71e7a0
+    guid: bbbeb77bc668a4549b910cf8e0123f33
+  - enabled: 1
+    path: Assets/Scenes/QuitScene.unity
+    guid: 4f2b29dd2652c934eb7f10b53f3797c8
   m_configObjects: {}

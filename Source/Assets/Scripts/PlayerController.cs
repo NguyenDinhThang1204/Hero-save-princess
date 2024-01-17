@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Rigidbody2D), typeof(TouchingDirections), typeof(DamageAble))]
 public class PlayerController : MonoBehaviour
@@ -11,9 +12,14 @@ public class PlayerController : MonoBehaviour
     public float runSpeed = 8f;
     public float airWalkSpeed = 3f;
     public float jumpImpulse = 10f;
+    public Text WINTEXT;
+    [SerializeField]
+    GameObject Instruct;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     DamageAble damageAble;
+    [SerializeField]
+    GameObject LosePanel;
 
     public float CurrentMoveSpeed
     {
@@ -121,6 +127,14 @@ public class PlayerController : MonoBehaviour
             rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
 
         animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
+        if (!damageAble.LockVelocity)
+        {
+            rb.velocity = new Vector2(moveInput.x * CurrentMoveSpeed, rb.velocity.y);
+
+            CheckGroundedAndFreeze();
+        }
+
+        animator.SetFloat(AnimationStrings.yVelocity, rb.velocity.y);
     }
 
     public void OnMove(InputAction.CallbackContext context)
@@ -190,4 +204,34 @@ public class PlayerController : MonoBehaviour
     {
         rb.velocity = new Vector2(knockback.x, rb.velocity.y + knockback.y);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Win")
+        {
+            WINTEXT.gameObject.SetActive(true);
+            Time.timeScale = 0;
+        }
+
+        if (collision.tag == "Instruct")
+        {
+            Instruct.gameObject.SetActive(true);
+        }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Instruct"))
+        {
+            Instruct.gameObject.SetActive(false);
+        }
+    }
+    private void CheckGroundedAndFreeze()
+    {
+        if (transform.position.y < -40f)
+        {
+            LosePanel.SetActive(true);
+            Time.timeScale = 0;
+        }
+    }
+
 }

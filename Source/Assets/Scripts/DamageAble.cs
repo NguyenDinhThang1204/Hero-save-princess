@@ -28,7 +28,8 @@ public class DamageAble : MonoBehaviour
 
     [SerializeField]
     private int _health = 100;
-
+    [SerializeField]
+    GameObject LosePanel;
     public int Health
     {
         get
@@ -43,8 +44,16 @@ public class DamageAble : MonoBehaviour
             if(_health <= 0)
             {
                 IsAlive = false;
+                StartCoroutine(ShowCanvasDieAfterDelay(2f));
             }
         }
+    }
+
+    private IEnumerator ShowCanvasDieAfterDelay(float delay)
+    {
+        yield return new WaitForSecondsRealtime(delay);
+        LosePanel.SetActive(true);
+        Time.timeScale = 0;
     }
 
     [SerializeField]
@@ -98,7 +107,7 @@ public class DamageAble : MonoBehaviour
             timeSinceHit += Time.deltaTime;
         }
     }
-
+    
     public bool Hit(int damage, Vector2 knockback)
     {
         if(IsAlive && !isInvincible)
