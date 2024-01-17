@@ -227,7 +227,7 @@ public class PlayerController : MonoBehaviour
     }
     private void CheckGroundedAndFreeze()
     {
-        if (transform.position.y < -40f)
+        if (transform.position.y < -50f)
         {
             LosePanel.SetActive(true);
             Time.timeScale = 0;
