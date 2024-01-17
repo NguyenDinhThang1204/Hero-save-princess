@@ -31,3 +31,6 @@ Hero save princess là một tựa game phiêu lưu hành động 2D dựa trên
 
 ## Chơi Demo
 [Hero Save Princess](https://thang1204.itch.io/hero-save-princess)
+
+[Video demo](https://drive.google.com/drive/folders/1ZMmzA8j_cnjtEL_jwrao_eSKJgqM3yeu)
+
