@@ -4,7 +4,7 @@
 
 ## Giới Thiệu
 
-Hero save princess là một tựa game phiêu lưu hành động 2D dựa trên nền tảng unity và lập trình bằng ngôn ngữ C#. Trong game, bạn sẽ vào vai một anh hùng dũng cảm phải chiến đấu với những kẻ thù nguy hiểm và giải đố những câu đố hóc búa để cứu công chúa xinh đẹp khỏi tên rồng hung ác.
+Hero save princess là một tựa game phiêu lưu hành động 2D dựa trên nền tảng unity và lập trình bằng ngôn ngữ C#. Trong game, bạn sẽ vào vai một anh hùng dũng cảm phải chiến đấu với những kẻ thù nguy hiểm và vượt qua chướng ngại vật để cứu công chúa xinh đẹp khỏi kẻ địch hung ác.
 
 ## Cách Chơi
 
