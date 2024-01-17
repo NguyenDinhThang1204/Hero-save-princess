@@ -13,7 +13,8 @@ public class PlayerController : MonoBehaviour
     public float airWalkSpeed = 3f;
     public float jumpImpulse = 10f;
     public Text WINTEXT;
-    public Text Instruct;
+    [SerializeField]
+    GameObject Instruct;
     Vector2 moveInput;
     TouchingDirections touchingDirections;
     DamageAble damageAble;
